@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_basket"
+    app:startDestination="@id/fakeFragment2">
+
+
+    <fragment
+        android:id="@+id/fakeFragment2"
+        android:name="com.example.myapplication.module.net.fragment.FakeFragment"
+        android:label="FakeFragment" />
+</navigation>
